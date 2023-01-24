@@ -45,7 +45,7 @@ int main() {
     cout << "MOEDAS:" << endl;
 
     resultado = (int)valor/1;
-    cout << resultado <<  " moeda(s) de R$ 1" < endl;
+    cout << resultado <<  " moeda(s) de R$ 1" << endl;
     valor = (valor - (resultado*1)) * 100;
 
     resultado = (int)valor/50;

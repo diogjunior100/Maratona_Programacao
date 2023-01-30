@@ -7,7 +7,8 @@ int main() {
     int valorsegundos;
     int horas, minutos, segundos;
     
-    scanf("%d", &valorsegundos);
+    //scanf("%d", &valorsegundos);
+    cin >> valorsegundos;
     
     horas = valorsegundos/3600;
     
@@ -15,7 +16,9 @@ int main() {
     
     segundos = valorsegundos%60;
     
-    printf("%d:%d:%d\n", horas,minutos,segundos);
+    //printf("%d:%d:%d\n", horas,minutos,segundos);   
+
+    cout << horas << ":" << minutos << ":" << segundos << endl; 
     
  
     return 0;
